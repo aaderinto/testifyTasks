@@ -1,6 +1,6 @@
 
 name: Merge CI
-on: [pull]
+on: [pull_request]
 jobs:
  Explore-GitHub-Actions:
    runs-on: ${{ matrix.os }}
