@@ -8,7 +8,7 @@ function sumArray(arr) {
     return total;
    }
    
-   // console.log(sumArray([1, 2, 3, 10, 28, 99, 48, 994, 28839]));
+    console.log(sumArray([1, 2, 3, 10, 28, 99, 48, 994, 28839]));
    
    // 2. Lenght converter
    function converter(ft) {
@@ -22,7 +22,7 @@ function sumArray(arr) {
     return results;
    }
    
-   // console.log(converter(6));
+    console.log(converter(6));
    
    // 3. Print all odd numbers between 1 and 100
    function printOdd() {
@@ -33,7 +33,7 @@ function sumArray(arr) {
     }
    }
    
-   // printOdd();
+    printOdd();
    
    // 4. Multiplication table
    function multiplicationTable(number) {
@@ -42,14 +42,14 @@ function sumArray(arr) {
     }
    }
    
-   // multiplicationTable(13);
+    multiplicationTable(13);
    
    // 5. Reverse an array
    function reverseArray(array) {
     return array.reverse();
    }
    
-   // console.log(reverseArray(["Jan", "Feb", "March", "April", "May"]));
+    console.log(reverseArray(["Jan", "Feb", "March", "April", "May"]));
    
    // 6. Sort an array of strings in alph. order
    function sortStringArray(stringArray) {
@@ -63,7 +63,7 @@ function sumArray(arr) {
     // NB: You can combine sort and reverse to changer the order of sorting
    }
    
-   // console.log(sortStringArray(["jan", "Feb", "march", "April", "May"]));
+    console.log(sortStringArray(["jan", "Feb", "march", "April", "May"]));
    
    // 7. Sort an array of NUMBERS in DESC order
    function sortNumArray(numArray) {
@@ -74,7 +74,7 @@ function sumArray(arr) {
     return sorted;
    }
    
-   // console.log(sortNumArray([30, 400, 3, 19, 73, 1003, 201, 8]));
+    console.log(sortNumArray([30, 400, 3, 19, 73, 1003, 201, 8]));
    
    // 8. Return a boolean if a number is divisible by 10
    function isDivisibleBy10(num) {
@@ -85,7 +85,7 @@ function sumArray(arr) {
     }
    }
    
-   // console.log(isDivisibleBy10(1000));
+    console.log(isDivisibleBy10(1000));
    
    // 9. Return the number of vowels in a string
    function countVowels(string) {
@@ -100,7 +100,7 @@ function sumArray(arr) {
     return numberOfVowels;
    }
    
-   // console.log(countVowels("Nigeria"));
+    console.log(countVowels("Nigeria"));
    
    // 10.
    function filterNegatives(array) {
